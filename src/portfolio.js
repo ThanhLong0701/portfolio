@@ -18,7 +18,7 @@ const greeting = {
     "I am a Front End Developer with 2 years of experience. I have developed many types of UI from chrome extension applications, CMS, CRM systems to microlearing platforms.",
   subTitle1: "I'm passionate about cutting-edge, pixel-perfect, beautiful interfaces, improve the performance and intuitively implemented UX.",
   resumeLink:
-    "https://drive.google.com/file/d/1kcvW8P65jWZFeKR6Jopf3nrQLA1qJCwn/view?usp=sharing",
+    "https://drive.google.com/file/d/15q0jAemHL0OefXpZfb29uWNQI0x2wmuz/view?usp=sharing",
   mail: "lythanhlong.fetel.hcmus@gmail.com",
 };
 
@@ -501,7 +501,7 @@ const contactPageData = {
   blogSection: {
     title: "My Resume",
     subtitle:
-      "Here is my resume !!",
+      "Here is my resume!!",
     link: "https://medium.com/@hrishipatel99",
     avatar_image_path: "blogs_image.svg",
   },

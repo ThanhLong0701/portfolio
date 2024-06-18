@@ -133,7 +133,7 @@ function Header(props) {
                 Contact and Resume
               </NavLink>
             </li>
-            <li>
+            {/* <li>
               <a
                 className="cr"
                 target="_blank"
@@ -145,7 +145,7 @@ function Header(props) {
               >
                 Journalify
               </a>
-            </li>
+            </li> */}
             <button {...styles} onClick={changeTheme}>
               {icon}
             </button>

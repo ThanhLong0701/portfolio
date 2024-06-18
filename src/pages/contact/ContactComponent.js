@@ -73,7 +73,7 @@ function Contact(props) {
                 {/* <a {...styles} className="general-btn" href={blogSection.link}>
                   My Medium Profile
                 </a> */}
-                <a {...styles} className="general-btn" href={greeting.resumeLink}>
+                <a {...styles} className="general-btn" href={greeting.resumeLink} target="blank">
                 See my Resume
               </a>
               </div>
