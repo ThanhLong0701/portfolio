@@ -7,6 +7,7 @@ import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 import { style } from "glamor";
+import '@react-pdf-viewer/core/lib/styles/index.css';
 
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
@@ -50,9 +51,9 @@ function Contact(props) {
               <SocialMedia />
               <br />
               <br />
-              <a {...styles} className="general-btn" href={greeting.resumeLink}>
+              {/* <a {...styles} className="general-btn" href={greeting.resumeLink}>
                 See my Resume
-              </a>
+              </a> */}
             </div>
           </div>
         </Fade>
@@ -69,13 +70,17 @@ function Contact(props) {
                 {blogSection["subtitle"]}
               </p>
               <div className="blogsite-btn-div">
-                <a {...styles} className="general-btn" href={blogSection.link}>
+                {/* <a {...styles} className="general-btn" href={blogSection.link}>
                   My Medium Profile
-                </a>
+                </a> */}
+                <a {...styles} className="general-btn" href={greeting.resumeLink}>
+                See my Resume
+              </a>
               </div>
             </div>
             <div className="blog-heading-img-div">
               <BlogsImg theme={theme} />
+
             </div>
           </div>
         </Fade>

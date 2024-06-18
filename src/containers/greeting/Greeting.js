@@ -35,6 +35,12 @@ export default function Greeting(props) {
                 </span>
                 {greeting.subTitle}
               </p>
+              <p
+                className="greeting-text-p subTitle"
+                style={{ color: theme.secondaryText }}
+              >
+                {greeting.subTitle1}
+              </p>
               <SocialMedia />
               <div className="portfolio-repo-btn-div">
                 <button

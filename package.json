@@ -2,7 +2,6 @@
   "private": true,
   "name": "opportfolio",
   "version": "1.2.0",
-  "homepage": "http://hrishi.tech/",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
@@ -12,6 +11,8 @@
     "test": "react-scripts test"
   },
   "dependencies": {
+    "@react-pdf-viewer/core": "^3.12.0",
+    "antd": "^5.18.1",
     "baseui": "^12.2.0",
     "glamor": "^2.20.40",
     "react": "^16.8.0",
