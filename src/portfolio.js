@@ -511,7 +511,7 @@ const projects = {
   data: [
     {
       name: "Trainizi",
-      url: "trainizi.com",
+      url: "https://trainizi.com/",
       description: "Trainizi is an interactive microlearning platform that uses gamification and AI to train, engage, and retain deskless and officeless workers, offering triple the return on investment.",
       languages: [
         {
